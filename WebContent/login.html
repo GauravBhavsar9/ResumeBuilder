@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .back {
+            background-image: url(3d_art_photoshop_nature_93610_3840x2160.jpg);
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+
+
+        }
+
+        .container {
+            height: 100vh;
+            /* background-color: rgb(169, 232, 243); */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            background-color: rgb(142, 248, 248);
+            border: 10px groove;
+            height: 55vh;
+            width: 50vh;
+            text-align: center;
+
+
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            text-shadow: 5px 5px 5px rgb(51, 51, 51);
+            margin-top: 25px;
+        }
+
+        .in1 {
+            text-align: center;
+            font-size: medium;
+            margin-top: 8vh;
+            height: 5vh;
+            width: 40vh;
+            border-radius: 5px;
+
+        }
+
+        .in2 {
+            text-align: center;
+            font-size: medium;
+            margin: 0vh 2px;
+            height: 5vh;
+            width: 40vh;
+            border-radius: 5px;
+
+        }
+
+        .btn1 {
+            text-align: center;
+            font-size: large;
+            margin-top: 5vh;
+            height: 5vh;
+            width: 40vh;
+            border-radius: 5px;
+            background-color: rgb(0 245 59);
+
+        }
+
+        .btn2 {
+            text-align: center;
+            font-size: large;
+            height: 5vh;
+            width: 20vh;
+            border-radius: 5px;
+
+
+        }
+
+        .btn2:hover {
+            background-color: rgb(15, 176, 250);
+
+        }
+
+        .btn1:hover {
+            background-color: rgb(3, 230, 56);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="back"></div>
+    <div class="container">
+        <div class="box">
+            <h1>Login Page</h1>
+            <form action="authenticate" method="post"> <input class="in1" type="text" name="uname" id="" placeholder="User Name"><br><br>
+                <input class="in2" type="password" name="pass" id="" placeholder="Password">
+                <input type="submit" value="SUBMIT" class="btn1"><br><br>
+                <input type="button" value="Sign Up" class="btn2"><br><br>
+            </form>
+            <a href="">Forgot Password</a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

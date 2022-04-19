@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<style>
+div {
+	background-color: rgb(165, 253, 180);
+	border: 10px groove;
+	padding: 10px;
+}
+
+input {
+	border-radius: 6px;
+}
+
+.btn {
+	background-color: aqua;
+	border-radius: 10px;
+	font-size: larger;
+	padding: 5px 50px;
+	margin: 5px;
+}
+
+h1 {
+	text-decoration: underline;
+}
+</style>
+
+</head>
+
+
+<body>
+
+	<div>
+		<h1>Registration Form</h1>
+		<form action="Resume.jsp">
+			First Name :<input type="text" name="fname" id=""> Middle
+			Name :<input type="text" name="mname" id=""> Last Name :<input
+				type="text" name="lname" id=""><br> <br> Address :
+			<textarea name="add" id="" cols="50" rows="5"></textarea>
+			<hr>
+			<h3>Educational Details</h3>
+			Primary Education : <input type="text" name="primary" id="">
+			Higher Secondary : <input type="text" name="highersecondary" id="">
+			Higher Education : <input type="text" name="higher" id=""><br>
+			<br>
+			<hr>
+			<h3>Job Information</h3>
+			Are You Experienced : <input type="checkbox" name="exp" id=""
+				value="experienced"> Profile : <input type="text"
+				name="profile" id="">
+
+			<hr>
+			<h3>Personal Information</h3>
+			Skills : <input type="text" name="skills" id=""><br> <br>
+			Hobbies : <input type="text" name="hobbies" id=""> <br> <br>
+			<hr>
+			<h3>Contact Details</h3>
+			Mobile No : <input type="number" name="mob" id=""> Email Id : <input type="email"
+				name="email" id=""><br> <br> <input type="submit"
+				value="Submit" class="btn"> <input type="reset"
+				value="Clear" class="btn">
+
+
+		</form>
+
+
+
+	</div>
+
+
+
+
+</body>
+
+</html>
